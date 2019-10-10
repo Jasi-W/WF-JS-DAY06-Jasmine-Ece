@@ -1,0 +1,50 @@
+var books = [
+{
+    "name": "Volvo",
+    "model": "XC40",
+    "makeYear": 2017,
+    "color": "white",
+    "fuelType": "benzin",
+    "image": "car1.jpg"
+},
+{
+    "name": "BMW",
+    "model": "i3",
+    "makeYear": 2018,
+    "color": "brown",
+    "fuelType": "electric",
+    "image": "car2.jpg"
+},
+{
+    "name": "BMW",
+    "model": "M5",
+    "makeYear": 2019,
+    "color": "blue",
+    "fuelType": "benzin",
+    "image": "car3.jpg"
+}
+{
+    "name": "Volvo",
+    "model": "S60",
+    "makeYear": 2015,
+    "color": "red",
+    "fuelType": "benzin",
+    "image": "car4.jpg"
+},
+{
+    "name": "Mazda",
+    "model": "3",
+    "makeYear": 2020,
+    "color": "red",
+    "fuelType": "benzin",
+    "image": "car5.jpg"
+
+},
+{
+    "name": "VW",
+    "model": "X3",
+    "makeYear": 2015,
+    "color": "orange",
+    "fuelType": "benzin",
+    "image": "car6.jpg"
+}]

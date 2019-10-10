@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic 1</title>
+</head>
+
+<body>
+    <script>
+    var car0 = {
+        name: "VW",
+        model: "Bora",
+        makeYear: 2015,
+        color: "red",
+        fuelType: "benzin"
+    }
+
+    /*function Car(name, model, makeYear, color, fuelType) {
+        this.name = name,
+            this.model = model,
+            this.makeYear = makeYear,
+            this.color = color,
+            this.fuelType = fuelType
+    }*/
+
+    class Car {
+
+        //Define a constructor inside the class
+        constructor(name, model, makeYear, color, fuelType) {
+            this.name = name;
+            this.model = model;
+            this.makeYear = makeYear;
+            this.color = color;
+            this.fuelType = fuelType;
+        }
+    } //END-class
+    var car1 = new Car("Reno", "Megan", 2012, "yellow", "benzin");
+    var car2 = new Car("Volvo", "Basic", 2014, "grey", "electric");
+    var car3 = new Car("BMW", "E1", 2017, "yellow", "benzin");
+    var car4 = new Car("Volvo", "DUMMY", 2015, "white", "electric");
+    var car5 = new Car("Audi", "A8", 2013, "black", "benzin");
+    var car6 = new Car("Mercedes", "A1", 2016, "black", "benzin");
+
+    console.log(car0.model);
+    console.log(car1.model);
+    console.log(car2.model);
+    console.log(car3.model);
+    console.log(car4.model);
+    console.log(car5.model);
+    console.log(car6.model);
+    
+    </script>
+</body>
+
+</html>
